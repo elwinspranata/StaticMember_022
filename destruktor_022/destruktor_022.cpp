@@ -43,5 +43,5 @@ int main() {
 	angka* ptrbelajarcpp = new angka(5); //constructor Dipanggil
 	delete ptrbelajarcpp; //Destructor Dipanggil 
 
-
-}
+	return 0;
+}//Destructor Dipanggil 
