@@ -24,4 +24,18 @@ void mahasiswa::setID() {
 	id = ++nim;
 }
 
+void mahasiswa::setID() {
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+} 
 
+int main() {
+	mahasiswa mhs1("sri Dadi");
+	mahasiswa mhs2("Budi Jatmiko");
+	mahasiswa::setNim(9); //mengakses nim melalui static member function "setNim" 
+	mahasiswa mhs3("Andi Janu");
+	mahasiswa mhs4("Joko wahono");
+
+
+}
