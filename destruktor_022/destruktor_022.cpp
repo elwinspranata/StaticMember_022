@@ -38,4 +38,10 @@ void angka::isiData() {
 	cout << endl;
 } 
 
+int main() {
+	angka belajarcpp(3); //constructor Dipanggil1
+	angka* ptrbelajarcpp = new angka(5); //constructor Dipanggil
+	delete ptrbelajarcpp; //Destructor Dipanggil 
 
+
+}
