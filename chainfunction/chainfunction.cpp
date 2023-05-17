@@ -2,7 +2,7 @@
 using namespace std; 
 class buku
 {
-	string judul; 
+	string judul;
 
 public:
 	buku setJudul(string judul)
@@ -15,5 +15,12 @@ public:
 		return this->judul;
 	}
 
+} bukunya; 
 
-};
+int main()
+{
+	// bukunya.setJudul("matematika");
+	// cout << bukunya.getJudul();
+	cout << bukunya.setJudul("matematika").getJudul(); // chain function callls 
+	return 0;
+}
